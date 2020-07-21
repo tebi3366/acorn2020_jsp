@@ -13,10 +13,7 @@
 		text-decoration: none;
 		color: #000;
 	}
-<<<<<<< HEAD
-=======
 
->>>>>>> refs/remotes/origin/master
 	.page-display ul li{
 		float: left;  /* 가로로 쌓이게 */
 		list-style-type: none; /* disc 사라지게 */
