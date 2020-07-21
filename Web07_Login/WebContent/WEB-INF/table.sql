@@ -31,3 +31,9 @@ CREATE TABLE users(
 	regdate DATE
 );
 
+SELECT *
+FROM (SELECT result1.*, ROWNUM AS rnum
+	  FROM ( SELECT num,writer,title FROM board_file
+	  WHERE title LIKE '%' || ? || '%' OR content LIKE '%' || ? '%'
+	  ORDER BY num DESC) result1 )
+WHERE rnum BETWEEN ? AND ?
