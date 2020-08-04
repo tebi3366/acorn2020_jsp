@@ -18,7 +18,7 @@
 		</div>
 		<div class="form-group">
 			<label for="phone">휴대폰 번호</label>
-			<input class="form-control" type="text" id="phone" name="phone" placeholder="010-1111-2222"/>
+			<input class="form-control" ty  pe="text" id="phone" name="phone" placeholder="010-1111-2222"/>
 			<div class="invalid-feedback">휴대폰 번호 형식에 맞게 입력 하세요.</div>		
 		</div>
 		<button class="btn btn-primary" type="submit">가입</button>
@@ -73,9 +73,6 @@
 </script>
 </body>
 </html>
-
-
-
 
 
 
